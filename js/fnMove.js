@@ -14,10 +14,10 @@ function getStyle(obj, name)
 //startMove(oDiv, {width: 400, height: 400})
 
 
-function fnMove(obj, json, fnEnd)
+function fnMove(obj, tar, json, fnEnd)
 {
-    clearInterval(obj.timer);
-    obj.timer=setInterval(function (){
+    clearInterval(tar.timer);
+    tar.timer=setInterval(function (){
         var bStop=true;        //假设：所有值都已经到了
         
         for(var attr in json)
@@ -52,7 +52,7 @@ function fnMove(obj, json, fnEnd)
         
         if(bStop)
         {
-            clearInterval(obj.timer);
+            clearInterval(tar.timer);
                         
             if(fnEnd)fnEnd();     //链式运动
         }

@@ -94,6 +94,7 @@ li {
 .label_img {
 	float: left;
 	padding:0 40px ;
+	overflow: hidden;
 }
 
 
@@ -147,9 +148,8 @@ li {
 }
 .label_exhibition_tab {
 	display: inline-block;
-	width: 170px;
+	width: 19%;
 	height: 300px;
-	margin: 0 auto;
 	overflow: hidden;
 }
 
