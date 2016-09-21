@@ -1,3 +1,9 @@
+
+
+/*     在nav_fnMove中使用简易移动框架完成       */
+
+
+/*
 function getStyle(obj, name)
 {
     if(obj.currentStyle)
@@ -58,3 +64,4 @@ function fnMove(obj, tar, json, fnEnd)
         }
     }, 30);
 }
+*/
