@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 	font-family: "微软雅黑";
-	color: #666
 }
 
 div { display: block;}
@@ -21,8 +20,7 @@ div { display: block;}
 #tel_wrapper {
 	width: 264px;
 	height: 20px;
-	padding-top: 5px;
-	margin: auto 145px auto auto;
+	margin: 8px 145px auto auto;
 }
 
 /* ========== */
@@ -49,15 +47,12 @@ li {
 	list-style: none;
 	float: left;
 	margin: auto 5px;
-	color: #666;
 }
-
 #nav {
-	float: right;
-	margin-right: 10%;
 	display: inline-block;
 	width: 600px;
 	height: 100px;
+	margin: auto 200px auto 40px;
 	line-height: 100px;
 	
 }
@@ -81,9 +76,8 @@ li {
 /* ========== */
 #container_wrapper {
 	display: inline-block;
-	height: auto;
+	height: 1100px;
 	width: 100%;
-	margin-bottom: 135px;
 }
 #label_img_wrapper {
 	display: block;      /*这里意为强调*/
@@ -117,7 +111,6 @@ li {
 	text-align: center;
 	line-height: 30px;
 	color: #fff;
-	margin-bottom: 10px;
 }
 .label_exhibition_title {
 	text-align: center;
@@ -125,7 +118,7 @@ li {
 .label_exhibition_line:nth-child(2) {
 	display: inline-block;
 	position: absolute;
-	top: 45px;
+	top: 40px;
 	left: 0;
 	width: 45%;
 	height: 2px;
@@ -134,14 +127,13 @@ li {
 .label_exhibition_line:nth-child(4) {
 	display: inline-block;
 	position: absolute;
-	top: 45px;
+	top: 40px;
 	right: 0;
 	width: 45%;
 	height: 2px;
 	background-color: #2D3237;
 }
 #label_exhibition_tab_wrapper {
-	margin-top: 45px;
 	width: 100%;
 	height: 300px;
 }
@@ -155,115 +147,12 @@ li {
 
 
 #label_about_wrapper {
-	position: relative;
 	display: inline-block;
 	width: 70%;
-	height: 300px;
-	margin: 55px 15% 0 15%;
+	margin: 0 auto;
 }
-#label_about_header{
-	display: inline-block;
-	width: 100%;
-	height: 50px;
-}
-.label_about_box {
-	display: inline-block;
-	width: inherit;
-	height: 30px;
-	background-color: #2d3237;
-	text-align: center;
-	line-height: 30px;
-	color: #fff;
-	margin-bottom: 10px;
-}
-.label_about_title {
-	text-align: center;
-}
-.label_about_line:nth-child(2) {
-	display: inline-block;
-	position: absolute;
-	top: 45px;
-	left: 0;
-	width: 45%;
-	height: 2px;
-	background-color: #2D3237;
-}
-.label_about_line:nth-child(4) {
-	display: inline-block;
-	position: absolute;
-	top: 45px;
-	right: 0;
-	width: 45%;
-	height: 2px;
-	background-color: #2D3237;
-}
-
-#label_about_str {
-	text-align: center;
-	line-height: 18px;
-	margin-top: 50px;
-}
-
-
-
 #label_service_wrapper {
-	position: relative;
 	display: inline-block;
 	width: 70%;
-	height: 300px;
-	margin: 55px 15% 0 15%;
+	margin: 0 auto;
 }
-#label_service_header{
-	display: inline-block;
-	width: 100%;
-	height: 50px;
-}
-.label_service_box {
-	display: inline-block;
-	width: inherit;
-	height: 30px;
-	background-color: #2d3237;
-	text-align: center;
-	line-height: 30px;
-	color: #fff;
-	margin-bottom: 10px;
-}
-.label_service_title {
-	text-align: center;
-}
-.label_service_line:nth-child(2) {
-	display: inline-block;
-	position: absolute;
-	top: 45px;
-	left: 0;
-	width: 45%;
-	height: 2px;
-	background-color: #2D3237;
-}
-.label_service_line:nth-child(4) {
-	display: inline-block;
-	position: absolute;
-	top: 45px;
-	right: 0;
-	width: 45%;
-	height: 2px;
-	background-color: #2D3237;
-}
-
-#label_service_str {
-	text-align: center;
-	line-height: 18px;
-	margin-top: 50px;
-}
-
-
-
-#footer_wrapper{
-	
-}
-#footer_str {
-	background-color: #eaeaea;
-	text-align: center;
-}
-
-
