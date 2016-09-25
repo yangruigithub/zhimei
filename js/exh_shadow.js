@@ -1,11 +1,9 @@
 var aLabel_shadow=document.getElementsByClassName('label_exhibition_tab');
-
-for(j=0;j<label_shadow.length;j++)   //阻塞函数bug
+for(j=0;j<aLabel_shadow.length;j++)   //阻塞函数bug
 {
-	console.log(j);
 	(function (j){
-			aLi[j].onmouseover=function () {
-				label_shadow[j].style.box-shadow= '10px 10px 5px #888888';
+			aLabel_shadow[j].onclick=function () {
+				aLabel_shadow[j].style.boxShadow='3px 3px 5px #888888';			
 			}
 	})(j);
 }
